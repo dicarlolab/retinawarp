@@ -33,11 +33,6 @@ def get_rf_value(input_size, output_size, rf_range=(0.01, 5.)):
 
 
 def get_foveal_density(output_image_size, input_image_size):
-  if output_image_size == 224:
-    return 6. * np.exp(-0.009 * input_image_size) + 0.12    # Foveal cone density associated with given input size (224)
-  elif output_image_size == 299:
-    return 11.35 * np.exp(-0.009 * input_image_size) + 0.22    # Foveal cone density associated with given input size (299)
-  else:
     return get_rf_value(input_image_size, output_image_size)
 
 
