@@ -23,6 +23,12 @@ def tf_image_translate(images, t, interpolation='NEAREST'):
   return tf.contrib.image.transform(tf.expand_dims(images, 0), transforms, interpolation)[0]
 
 
+def tf_inv_quad_func(x, func_pars):
+  a = func_pars[0]
+  b = func_pars[1]
+  return (-b + tf.sqrt(b ** 2 + 4*a*x))/(2*a)
+
+
 def find_retina_mapping(input_size, output_size, fit_mode='quad'):
   """
   Fits a function to the distance data so it will map the outmost pixel to the border of the image
