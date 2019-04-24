@@ -38,3 +38,15 @@ For tensorflow implementation:
         retina_img = retina_img.eval()
 
 Look [here](notebooks/RetinaWarp.ipynb) for more details.
+
+# Refernce
+If you are using this code please refer to our publication: 
+
+    @article{bashivan2018neural,
+      title={Neural population control via deep image synthesis},
+      author={Bashivan, Pouya and Kar, Kohitij and DiCarlo, James},
+      journal={bioRxiv},
+      pages={461525},
+      year={2018},
+      publisher={Cold Spring Harbor Laboratory}
+    }
