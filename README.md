@@ -42,11 +42,13 @@ Look [here](notebooks/RetinaWarp.ipynb) for more details.
 # Refernce
 If you are using this code please refer to our publication: 
 
-    @article{bashivan2018neural,
+    @article{bashivan2019neural,
       title={Neural population control via deep image synthesis},
-      author={Bashivan, Pouya and Kar, Kohitij and DiCarlo, James},
-      journal={bioRxiv},
-      pages={461525},
-      year={2018},
-      publisher={Cold Spring Harbor Laboratory}
+      author={Bashivan, Pouya and Kar, Kohitij and DiCarlo, James J},
+      journal={Science},
+      volume={364},
+      number={6439},
+      pages={eaav9436},
+      year={2019},
+      publisher={American Association for the Advancement of Science}
     }
